@@ -1,0 +1,14 @@
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\bin\Debug\net8.0\AboutMyEnvironment.exe
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\bin\Debug\net8.0\AboutMyEnvironment.deps.json
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\bin\Debug\net8.0\AboutMyEnvironment.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\bin\Debug\net8.0\AboutMyEnvironment.dll
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\bin\Debug\net8.0\AboutMyEnvironment.pdb
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\obj\Debug\net8.0\AboutMyEnvironment.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\obj\Debug\net8.0\AboutMyEnvironment.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\obj\Debug\net8.0\AboutMyEnvironment.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\obj\Debug\net8.0\AboutMyEnvironment.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\obj\Debug\net8.0\AboutMyEnvironment.dll
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\obj\Debug\net8.0\refint\AboutMyEnvironment.dll
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\obj\Debug\net8.0\AboutMyEnvironment.pdb
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\obj\Debug\net8.0\AboutMyEnvironment.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01\AboutMyEnvironment\obj\Debug\net8.0\ref\AboutMyEnvironment.dll

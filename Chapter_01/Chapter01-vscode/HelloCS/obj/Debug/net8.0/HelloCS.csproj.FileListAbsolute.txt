@@ -1,0 +1,14 @@
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\bin\Debug\net8.0\HelloCS.exe
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\bin\Debug\net8.0\HelloCS.deps.json
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\bin\Debug\net8.0\HelloCS.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\bin\Debug\net8.0\HelloCS.dll
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\bin\Debug\net8.0\HelloCS.pdb
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\obj\Debug\net8.0\HelloCS.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\obj\Debug\net8.0\HelloCS.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\obj\Debug\net8.0\HelloCS.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\obj\Debug\net8.0\HelloCS.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\obj\Debug\net8.0\HelloCS.dll
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\obj\Debug\net8.0\refint\HelloCS.dll
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\obj\Debug\net8.0\HelloCS.pdb
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\obj\Debug\net8.0\HelloCS.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12_net8_modern_cross_platform_development\Chapter01-vscode\hellocs\obj\Debug\net8.0\ref\HelloCS.dll
