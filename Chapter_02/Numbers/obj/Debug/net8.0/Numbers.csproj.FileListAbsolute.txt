@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\bin\Debug\net8.0\Numbers.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\bin\Debug\net8.0\Numbers.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\bin\Debug\net8.0\Numbers.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\bin\Debug\net8.0\Numbers.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\bin\Debug\net8.0\Numbers.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\obj\Debug\net8.0\Numbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\obj\Debug\net8.0\Numbers.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\obj\Debug\net8.0\Numbers.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\obj\Debug\net8.0\Numbers.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\obj\Debug\net8.0\Numbers.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\obj\Debug\net8.0\Numbers.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\obj\Debug\net8.0\refint\Numbers.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\obj\Debug\net8.0\Numbers.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\obj\Debug\net8.0\Numbers.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Numbers\obj\Debug\net8.0\ref\Numbers.dll

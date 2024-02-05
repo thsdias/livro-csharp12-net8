@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\obj\Debug\net8.0\AsyncConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\obj\Debug\net8.0\AsyncConsole.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\obj\Debug\net8.0\AsyncConsole.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\obj\Debug\net8.0\AsyncConsole.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\obj\Debug\net8.0\AsyncConsole.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\bin\Debug\net8.0\AsyncConsole.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\bin\Debug\net8.0\AsyncConsole.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\bin\Debug\net8.0\AsyncConsole.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\bin\Debug\net8.0\AsyncConsole.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\bin\Debug\net8.0\AsyncConsole.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\obj\Debug\net8.0\AsyncConsole.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\obj\Debug\net8.0\refint\AsyncConsole.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\obj\Debug\net8.0\AsyncConsole.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\obj\Debug\net8.0\AsyncConsole.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\AsyncConsole\obj\Debug\net8.0\ref\AsyncConsole.dll
