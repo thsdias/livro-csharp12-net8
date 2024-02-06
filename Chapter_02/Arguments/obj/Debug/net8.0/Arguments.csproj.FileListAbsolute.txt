@@ -1,0 +1,15 @@
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\bin\Debug\net8.0\Arguments.exe
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\bin\Debug\net8.0\Arguments.deps.json
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\bin\Debug\net8.0\Arguments.runtimeconfig.json
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\bin\Debug\net8.0\Arguments.dll
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\bin\Debug\net8.0\Arguments.pdb
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\obj\Debug\net8.0\Arguments.GeneratedMSBuildEditorConfig.editorconfig
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\obj\Debug\net8.0\Arguments.AssemblyInfoInputs.cache
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\obj\Debug\net8.0\Arguments.AssemblyInfo.cs
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\obj\Debug\net8.0\Arguments.csproj.CoreCompileInputs.cache
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\obj\Debug\net8.0\Arguments.sourcelink.json
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\obj\Debug\net8.0\Arguments.dll
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\obj\Debug\net8.0\refint\Arguments.dll
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\obj\Debug\net8.0\Arguments.pdb
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\obj\Debug\net8.0\Arguments.genruntimeconfig.cache
+D:\sourcecontrol\git\livro-csharp12-net8\chapter_02\arguments\obj\Debug\net8.0\ref\Arguments.dll

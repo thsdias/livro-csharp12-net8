@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\bin\Debug\net8.0\Formatting.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\bin\Debug\net8.0\Formatting.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\bin\Debug\net8.0\Formatting.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\bin\Debug\net8.0\Formatting.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\bin\Debug\net8.0\Formatting.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\obj\Debug\net8.0\Formatting.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\obj\Debug\net8.0\Formatting.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\obj\Debug\net8.0\Formatting.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\obj\Debug\net8.0\Formatting.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\obj\Debug\net8.0\Formatting.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\obj\Debug\net8.0\Formatting.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\obj\Debug\net8.0\refint\Formatting.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\obj\Debug\net8.0\Formatting.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\obj\Debug\net8.0\Formatting.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Formatting\obj\Debug\net8.0\ref\Formatting.dll

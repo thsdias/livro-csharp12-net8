@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\bin\Debug\net8.0\Vocabulary.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\bin\Debug\net8.0\Vocabulary.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\bin\Debug\net8.0\Vocabulary.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\bin\Debug\net8.0\Vocabulary.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\bin\Debug\net8.0\Vocabulary.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\obj\Debug\net8.0\Vocabulary.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\obj\Debug\net8.0\Vocabulary.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\obj\Debug\net8.0\Vocabulary.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\obj\Debug\net8.0\Vocabulary.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\obj\Debug\net8.0\Vocabulary.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\obj\Debug\net8.0\Vocabulary.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\obj\Debug\net8.0\refint\Vocabulary.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\obj\Debug\net8.0\Vocabulary.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\obj\Debug\net8.0\Vocabulary.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_02\Vocabulary\obj\Debug\net8.0\ref\Vocabulary.dll
