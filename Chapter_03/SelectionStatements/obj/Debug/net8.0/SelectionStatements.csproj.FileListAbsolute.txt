@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\bin\Debug\net8.0\SelectionStatements.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\bin\Debug\net8.0\SelectionStatements.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\bin\Debug\net8.0\SelectionStatements.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\bin\Debug\net8.0\SelectionStatements.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\bin\Debug\net8.0\SelectionStatements.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\obj\Debug\net8.0\SelectionStatements.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\obj\Debug\net8.0\SelectionStatements.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\obj\Debug\net8.0\SelectionStatements.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\obj\Debug\net8.0\SelectionStatements.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\obj\Debug\net8.0\SelectionStatements.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\obj\Debug\net8.0\SelectionStatements.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\obj\Debug\net8.0\refint\SelectionStatements.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\obj\Debug\net8.0\SelectionStatements.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\obj\Debug\net8.0\SelectionStatements.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\SelectionStatements\obj\Debug\net8.0\ref\SelectionStatements.dll

@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\obj\Debug\net8.0\CastingConverting.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\obj\Debug\net8.0\CastingConverting.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\obj\Debug\net8.0\CastingConverting.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\obj\Debug\net8.0\CastingConverting.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\obj\Debug\net8.0\CastingConverting.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\bin\Debug\net8.0\CastingConverting.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\bin\Debug\net8.0\CastingConverting.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\bin\Debug\net8.0\CastingConverting.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\bin\Debug\net8.0\CastingConverting.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\bin\Debug\net8.0\CastingConverting.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\obj\Debug\net8.0\CastingConverting.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\obj\Debug\net8.0\refint\CastingConverting.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\obj\Debug\net8.0\CastingConverting.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\obj\Debug\net8.0\CastingConverting.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\CastingConverting\obj\Debug\net8.0\ref\CastingConverting.dll

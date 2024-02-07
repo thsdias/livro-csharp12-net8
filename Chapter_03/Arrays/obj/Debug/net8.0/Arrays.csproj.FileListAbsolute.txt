@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\bin\Debug\net8.0\Arrays.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\bin\Debug\net8.0\Arrays.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\bin\Debug\net8.0\Arrays.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\bin\Debug\net8.0\Arrays.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\bin\Debug\net8.0\Arrays.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\obj\Debug\net8.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\obj\Debug\net8.0\Arrays.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\obj\Debug\net8.0\Arrays.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\obj\Debug\net8.0\Arrays.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\obj\Debug\net8.0\refint\Arrays.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\obj\Debug\net8.0\Arrays.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\obj\Debug\net8.0\Arrays.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Arrays\obj\Debug\net8.0\ref\Arrays.dll

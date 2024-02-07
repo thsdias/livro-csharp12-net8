@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\obj\Debug\net8.0\IterationStatements.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\obj\Debug\net8.0\IterationStatements.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\obj\Debug\net8.0\IterationStatements.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\obj\Debug\net8.0\IterationStatements.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\obj\Debug\net8.0\IterationStatements.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\bin\Debug\net8.0\IterationStatements.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\bin\Debug\net8.0\IterationStatements.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\bin\Debug\net8.0\IterationStatements.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\bin\Debug\net8.0\IterationStatements.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\bin\Debug\net8.0\IterationStatements.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\obj\Debug\net8.0\IterationStatements.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\obj\Debug\net8.0\refint\IterationStatements.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\obj\Debug\net8.0\IterationStatements.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\obj\Debug\net8.0\IterationStatements.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\IterationStatements\obj\Debug\net8.0\ref\IterationStatements.dll

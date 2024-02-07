@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\bin\Debug\net8.0\HandlingExceptions.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\bin\Debug\net8.0\HandlingExceptions.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\bin\Debug\net8.0\HandlingExceptions.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\bin\Debug\net8.0\HandlingExceptions.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\bin\Debug\net8.0\HandlingExceptions.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\obj\Debug\net8.0\HandlingExceptions.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\obj\Debug\net8.0\HandlingExceptions.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\obj\Debug\net8.0\HandlingExceptions.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\obj\Debug\net8.0\HandlingExceptions.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\obj\Debug\net8.0\HandlingExceptions.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\obj\Debug\net8.0\HandlingExceptions.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\obj\Debug\net8.0\refint\HandlingExceptions.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\obj\Debug\net8.0\HandlingExceptions.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\obj\Debug\net8.0\HandlingExceptions.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\HandlingExceptions\obj\Debug\net8.0\ref\HandlingExceptions.dll

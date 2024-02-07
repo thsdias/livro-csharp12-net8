@@ -15,3 +15,11 @@ Modern Cross-Platform Development Fundamentals: Start building websites and serv
     - Use some of the built-in types for numbers, text, and Booleans.
     - Choose between number types.
     - Control output formatting in console apps.
+
+- ##### Chapter 3: Controlling Flow, Converting Types, and Handling Exceptions
+> 
+    - Use operators to perform simple tasks.
+    - Use branch and loop statements to implement logic.
+    - Work with single- and multi-dimensional arrays.
+    - Convert between types.
+    - Catch exceptions and handle integer overflow.
