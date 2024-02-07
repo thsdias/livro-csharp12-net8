@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\bin\Debug\net8.0\Operators.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\bin\Debug\net8.0\Operators.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\bin\Debug\net8.0\Operators.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\bin\Debug\net8.0\Operators.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\bin\Debug\net8.0\Operators.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\obj\Debug\net8.0\Operators.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\obj\Debug\net8.0\Operators.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\obj\Debug\net8.0\Operators.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\obj\Debug\net8.0\Operators.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\obj\Debug\net8.0\Operators.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\obj\Debug\net8.0\Operators.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\obj\Debug\net8.0\refint\Operators.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\obj\Debug\net8.0\Operators.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\obj\Debug\net8.0\Operators.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_03\Operators\obj\Debug\net8.0\ref\Operators.dll
