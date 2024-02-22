@@ -1,0 +1,12 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\bin\Debug\net8.0\CallStackExceptionHandlingLib.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\bin\Debug\net8.0\CallStackExceptionHandlingLib.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\bin\Debug\net8.0\CallStackExceptionHandlingLib.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\obj\Debug\net8.0\CallStackExceptionHandlingLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\obj\Debug\net8.0\CallStackExceptionHandlingLib.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\obj\Debug\net8.0\CallStackExceptionHandlingLib.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\obj\Debug\net8.0\CallStackExceptionHandlingLib.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\obj\Debug\net8.0\CallStackExceptionHandlingLib.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\obj\Debug\net8.0\CallStackExceptionHandlingLib.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\obj\Debug\net8.0\refint\CallStackExceptionHandlingLib.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\obj\Debug\net8.0\CallStackExceptionHandlingLib.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CallStackExceptionHandlingLib\obj\Debug\net8.0\ref\CallStackExceptionHandlingLib.dll

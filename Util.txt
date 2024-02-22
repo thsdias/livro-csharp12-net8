@@ -1,0 +1,103 @@
+
+** Book Links:
+
+https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-4---writing-debugging-and-testing-functions
+
+
+---------------------------------------------------------------------------------------------------------------
+
+* Add Project in Solution:
+> dotnet sln add name_project
+
+* Create a new MVC Project (No authentication):
+> dotnet new mvc -au None
+
+* Create a new ClassLib:
+> dotnet new classlib -o name_lib
+
+* Create a new xUnit Project:
+> dotnet new xunit -o name_testproject
+
+
+** Build:
+
+* Build a project and its dependencies using Release configuration:
+> dotnet build --configuration Release
+
+
+** DotNet Pack:
+Builds the project and Creates NuGet packages (*.nupkg file)
+
+* Pack the project in the current directory:
+> dotnet pack
+
+* Pack the project in the current directory and place the resulting packages into the nupkgs folder
+> dotnet pack --output nupkgs 
+
+
+---------------------------------------------------------------------------------------------------------------
+
+* Chapter 4:
+
+-> XML comment
+Ferramenta que converte os comentários em documentação, como o Sandcastle: https://github.com/EWSoftware/SHFB 
+
+
+-> Add Project Reference:
+<ItemGroup>
+  <ProjectReference
+    Include="..\CalculatorLib\CalculatorLib.csproj" />
+</ItemGroup>
+
+
+-> Throwing and catching exceptions in functions
+
+* Commonly thrown exceptions in functions:
+
+static void Withdraw(string accountName, decimal amount)
+{
+  if (string.IsNullOrWhiteSpace(accountName))
+  {
+    throw new ArgumentException(paramName: nameof(accountName));
+  }
+  if (amount <= 0)
+  {
+    throw new ArgumentOutOfRangeException(paramName: nameof(amount),
+      message: $"{nameof(amount)} cannot be negative or zero.");
+  }
+  // process parameters
+}
+
+
+* Throwing exceptions using guard clauses:
+
+Exception:
+- ArgumentException
+
+Guard clause methods:
+- ThrowIfNullOrEmpty, ThrowIfNullOrWhiteSpace
+
+Exception:
+- ArgumentNullException
+
+Guard clause methods:
+- ThrowIfNull
+
+Exception:
+- ArgumentOutOfRangeException
+
+Guard clause methods:
+- ThrowIfEqual, ThrowIfGreaterThan, ThrowIfGreaterThanOrEqual, 
+  ThrowIfLessThan, ThrowIfLessThanOrEqual, ThrowIfNegative, ThrowIfNegativeOrZero, 
+  ThrowIfNotEqual, ThrowIfZero
+
+
+static void Withdraw(string accountName, decimal amount)
+{
+  ArgumentException.ThrowIfNullOrWhiteSpace(accountName,
+    paramName: nameof(accountName));
+  ArgumentOutOfRangeException.ThrowIfNegativeOrZero(amount,
+    paramName: nameof(amount));
+  // process parameters
+}
+

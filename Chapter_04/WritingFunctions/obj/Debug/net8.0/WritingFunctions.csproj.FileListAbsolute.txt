@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\bin\Debug\net8.0\WritingFunctions.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\bin\Debug\net8.0\WritingFunctions.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\bin\Debug\net8.0\WritingFunctions.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\bin\Debug\net8.0\WritingFunctions.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\bin\Debug\net8.0\WritingFunctions.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\obj\Debug\net8.0\WritingFunctions.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\obj\Debug\net8.0\WritingFunctions.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\obj\Debug\net8.0\WritingFunctions.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\obj\Debug\net8.0\WritingFunctions.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\obj\Debug\net8.0\WritingFunctions.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\obj\Debug\net8.0\WritingFunctions.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\obj\Debug\net8.0\refint\WritingFunctions.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\obj\Debug\net8.0\WritingFunctions.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\obj\Debug\net8.0\WritingFunctions.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\WritingFunctions\obj\Debug\net8.0\ref\WritingFunctions.dll

@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\bin\Debug\net8.0\TopLevelFunctions.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\bin\Debug\net8.0\TopLevelFunctions.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\bin\Debug\net8.0\TopLevelFunctions.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\bin\Debug\net8.0\TopLevelFunctions.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\bin\Debug\net8.0\TopLevelFunctions.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\obj\Debug\net8.0\refint\TopLevelFunctions.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\obj\Debug\net8.0\TopLevelFunctions.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\TopLevelFunctions\obj\Debug\net8.0\ref\TopLevelFunctions.dll
