@@ -1,0 +1,15 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\bin\Debug\net8.0\HotReloading.exe
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\bin\Debug\net8.0\HotReloading.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\bin\Debug\net8.0\HotReloading.runtimeconfig.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\bin\Debug\net8.0\HotReloading.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\bin\Debug\net8.0\HotReloading.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\obj\Debug\net8.0\HotReloading.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\obj\Debug\net8.0\HotReloading.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\obj\Debug\net8.0\HotReloading.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\obj\Debug\net8.0\HotReloading.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\obj\Debug\net8.0\HotReloading.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\obj\Debug\net8.0\HotReloading.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\obj\Debug\net8.0\refint\HotReloading.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\obj\Debug\net8.0\HotReloading.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\obj\Debug\net8.0\HotReloading.genruntimeconfig.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\HotReloading\obj\Debug\net8.0\ref\HotReloading.dll

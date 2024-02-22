@@ -1,0 +1,12 @@
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\bin\Debug\net8.0\CalculatorLib.deps.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\bin\Debug\net8.0\CalculatorLib.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\bin\Debug\net8.0\CalculatorLib.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.AssemblyInfoInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.AssemblyInfo.cs
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.csproj.CoreCompileInputs.cache
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.sourcelink.json
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\obj\Debug\net8.0\refint\CalculatorLib.dll
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\obj\Debug\net8.0\CalculatorLib.pdb
+D:\SourceControl\Git\livro-csharp12-net8\Chapter_04\CalculatorLib\obj\Debug\net8.0\ref\CalculatorLib.dll
