@@ -3,6 +3,8 @@ Modern Cross-Platform Development Fundamentals: Start building websites and serv
 
 ![Alt text](https://content.packt.com/B19586/cover_image_small.jpg "Modern Cross-Platform Development Fundamentals - Mark J. Price")
 
+Summary
+
 - ##### Chapter 1: Hello, C#! Welcome, .NET!
 > 
     - Set up your development environment.
@@ -32,4 +34,12 @@ Modern Cross-Platform Development Fundamentals: Start building websites and serv
     - How to write reusable functions with input parameters and return values, in both an imperative and functional style.
     - How to use the Visual Studio and Visual Studio Code debugging and diagnostic features like logging and unit tests to identify and fix any bugs in them.
     - How to throw and catch exceptions in functions and understand the call stack.
+    
+
+- ##### Chapter 5: 
+> 
+    - Making your own types using OOP.
+    - Some of the different categories of members that a type can have, including fields to store data and methods to perform actions.
+    - OOP concepts, such as aggregation and encapsulation
+    - How to use modern C# features, like relational and property pattern matching enhancements, init-only properties, and record types.
     
