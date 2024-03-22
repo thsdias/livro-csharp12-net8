@@ -1,0 +1,95 @@
+# Visual Studio files
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+
+# Rider files
+.idea/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio Code files
+.vscode/
+*.launch.json
+*.settings.json
+*.vscodeignore
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
+
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
+# Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Test files
+*.testsettings
+*.runsettings
+
+# Build Results of an ATL Project
+[Dd]ebug/
+[Rr]elease/
+dlldata.c
+
+# BenchmarkDotNet Artifacts
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Roslyn cache directories
+*.ide/
+
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
+# Visual Studio 2019 cache directories
+.vs/
+bin/
