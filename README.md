@@ -34,7 +34,6 @@ Summary
     - How to write reusable functions with input parameters and return values, in both an imperative and functional style.
     - How to use the Visual Studio and Visual Studio Code debugging and diagnostic features like logging and unit tests to identify and fix any bugs in them.
     - How to throw and catch exceptions in functions and understand the call stack.
-    
 
 - ##### Chapter 5: 
 > 
@@ -42,4 +41,15 @@ Summary
     - Some of the different categories of members that a type can have, including fields to store data and methods to perform actions.
     - OOP concepts, such as aggregation and encapsulation
     - How to use modern C# features, like relational and property pattern matching enhancements, init-only properties, and record types.
+
+- ##### Chapter 6: 
+> 
+    - Operators
+    - Generic types
+    - Delegates and events
+    - Implementing interfaces
+    - Memory usage differences between reference and value types
+    - Working with null values
+    - Deriving and casting types using inheritance
+    - Base and derived classes, how to override a type member, and using polymorphism
     
