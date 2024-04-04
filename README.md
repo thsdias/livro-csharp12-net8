@@ -65,3 +65,4 @@ Summary
 
     * Extra:
         - Porting from .NET Framework to modern .NET
+        - Creating source generators
