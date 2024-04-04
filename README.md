@@ -29,20 +29,20 @@ Summary
     - Convert between types.
     - Catch exceptions and handle integer overflow.
 
-- ##### Chapter 4: 
+- ##### Chapter 4: Writing, Debugging, and Testing Functions 
 > 
     - How to write reusable functions with input parameters and return values, in both an imperative and functional style.
     - How to use the Visual Studio and Visual Studio Code debugging and diagnostic features like logging and unit tests to identify and fix any bugs in them.
     - How to throw and catch exceptions in functions and understand the call stack.
 
-- ##### Chapter 5: 
+- ##### Chapter 5: Building Your Own Types with Object-Oriented Programming
 > 
     - Making your own types using OOP.
     - Some of the different categories of members that a type can have, including fields to store data and methods to perform actions.
     - OOP concepts, such as aggregation and encapsulation
     - How to use modern C# features, like relational and property pattern matching enhancements, init-only properties, and record types.
 
-- ##### Chapter 6: 
+- ##### Chapter 6: Implementing Interfaces and Inheriting Classes
 > 
     - Operators
     - Generic types
@@ -52,4 +52,7 @@ Summary
     - Working with null values
     - Deriving and casting types using inheritance
     - Base and derived classes, how to override a type member, and using polymorphism
-    
+
+- ##### Chapter 7: 
+> 
+    - 
