@@ -55,4 +55,13 @@ Summary
 
 - ##### Chapter 7: 
 > 
-    - 
+    - Reviewed the journey of .NET 8 for BCL functionality.
+    - Explored the relationship between assemblies and namespaces.
+    - Saw options for publishing an app for distribution to multiple operating systems.
+    - Learned how to publish to native AOT for faster startup and smaller memory footprint.
+    - Learned how to decompile .NET assemblies for educational purposes.
+    - Packaged and distributed a class library.
+    - Learned how to activate preview features.
+
+    * Extra:
+        - Porting from .NET Framework to modern .NET
