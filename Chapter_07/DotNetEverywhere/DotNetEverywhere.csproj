@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RuntimeIdentifiers>
+      win-x64;osx-x64;linux-x64;linux-arm64
+    </RuntimeIdentifiers>
+    <!-- <RuntimeIdentifier>
+      osx.11.0-arm64
+    </RuntimeIdentifier> -->
+    <!-- <RuntimeIdentifier>
+      win10-x64
+    </RuntimeIdentifier> -->
+    <PublishTrimmed>true</PublishTrimmed> <!--Enable trimming.-->
+    <TrimMode>partial</TrimMode> <!--Set assembly-level trimming.-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="System.Console" Static="true" />
+  </ItemGroup>
+
+  
+</Project>

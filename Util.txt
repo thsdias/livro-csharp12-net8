@@ -6,17 +6,36 @@ https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-4
 
 ---------------------------------------------------------------------------------------------------------------
 
+** .NET Portability Analyzer
+// Useful tool that you can run against your existing applications to generate a report for porting 
+- https://learn.microsoft.com/en-us/shows/seth-juarez/brief-look-net-portability-analyzer
+
+---------------------------------------------------------------------------------------------------------------
+
+* Command to list your currently installed templates:
+> dotnet new list  (or dotnet new -l or dotnet new --list with older SDKs)
+
+
 * Add Project in Solution:
 > dotnet sln add name_project
+
 
 * Create a new MVC Project (No authentication):
 > dotnet new mvc -au None
 
+
 * Create a new ClassLib:
 > dotnet new classlib -o name_lib
+> dotnet new classlib -f netstandard2.0
+
 
 * Create a new xUnit Project:
 > dotnet new xunit -o name_testproject
+
+
+* Create a global.json file that forces the use of the latest .NET Core 6.0 SDK that you have installed
+> dotnet --list-sdks
+> dotnet new globaljson --sdk-version 6.0.xxx
 
 
 ** Build:
@@ -33,6 +52,26 @@ Builds the project and Creates NuGet packages (*.nupkg file)
 
 * Pack the project in the current directory and place the resulting packages into the nupkgs folder
 > dotnet pack --output nupkgs 
+
+
+** SDKs:
+
+* Verifica versoes e avisos de atualizacao das SDKs
+> dotnet sdk check
+
+
+** NuGet:
+
+* Create a NuGet package manually (local: ...\bin\Release\name_package.nupkg):
+> dotnet pack -c Release
+
+
+* Exploring NuGet packages with a tool:
+- https://nuget.info
+
+
+* Hosting your own NuGet feeds:
+- https://learn.microsoft.com/en-us/nuget/hosting-packages/overview
 
 
 ---------------------------------------------------------------------------------------------------------------
