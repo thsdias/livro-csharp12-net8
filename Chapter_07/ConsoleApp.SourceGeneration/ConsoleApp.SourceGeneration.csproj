@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Add an entry to enable the generation of the code file -->
+    <!-- 
+      Visual Studio 2022 automatically runs code analyzers so this is not necessary. 
+      Visual Studio Code does not automatically run code analyzers. 
+    -->
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="System.Console" Static="true" />
+
+    <!-- control the path for automatically generated code files by adding a 'CompilerGeneratedFilesOutputPath' -->
+    <ProjectReference Include="..\Packt.SourceGeneration\Packt.SourceGeneration.csproj"
+      OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+</Project>
