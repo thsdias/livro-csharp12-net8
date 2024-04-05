@@ -3,6 +3,11 @@
 
 https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-4---writing-debugging-and-testing-functions
 
+---------------------------------------------------------------------------------------------------------------
+
+** StyleCop:
+- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/tree/master
+- https://www.jamescroft.co.uk/building-net-project-docs-with-docfx-on-github-pages/
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -14,6 +19,9 @@ https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-4
 
 * Create a new ClassLib:
 > dotnet new classlib -o name_lib
+
+* Create a old style console project:
+> dotnet new console -n name_project --use-program-main
 
 * Create a new xUnit Project:
 > dotnet new xunit -o name_testproject

@@ -52,4 +52,6 @@ Summary
     - Working with null values
     - Deriving and casting types using inheritance
     - Base and derived classes, how to override a type member, and using polymorphism
-    
+
+    * Extra:
+        - Writing better code
