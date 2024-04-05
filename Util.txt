@@ -6,11 +6,28 @@ https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-4
 
 ---------------------------------------------------------------------------------------------------------------
 
-** .NET Portability Analyzer
+** .NET Portability Analyzer:
+
 // Useful tool that you can run against your existing applications to generate a report for porting 
 - https://learn.microsoft.com/en-us/shows/seth-juarez/brief-look-net-portability-analyzer
 
 ---------------------------------------------------------------------------------------------------------------
+
+** C# Source Generators:
+
+- https://github.com/amis92/csharp-source-generators
+
+Source Generators design specification: 
+- https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.md
+
+Source Generators samples: 
+- https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators
+
+Source Generators cookbook: 
+- https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md
+ 
+---------------------------------------------------------------------------------------------------------------
+
 
 * Command to list your currently installed templates:
 > dotnet new list  (or dotnet new -l or dotnet new --list with older SDKs)

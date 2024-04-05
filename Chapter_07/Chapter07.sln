@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AotConsole", "AotConsole\Ao
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceLinks", "SourceLinks\SourceLinks.csproj", "{0D79B363-57BD-471A-89A1-7028ADD8E7DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.SourceGeneration", "ConsoleApp.SourceGeneration\ConsoleApp.SourceGeneration.csproj", "{15472C6D-106A-44E3-A670-4D7F560374B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{0D79B363-57BD-471A-89A1-7028ADD8E7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D79B363-57BD-471A-89A1-7028ADD8E7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D79B363-57BD-471A-89A1-7028ADD8E7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15472C6D-106A-44E3-A670-4D7F560374B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15472C6D-106A-44E3-A670-4D7F560374B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15472C6D-106A-44E3-A670-4D7F560374B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15472C6D-106A-44E3-A670-4D7F560374B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
