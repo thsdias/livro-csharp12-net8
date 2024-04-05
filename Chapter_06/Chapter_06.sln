@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleApp", "PeopleApp\Peop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullHandling", "NullHandling\NullHandling.csproj", "{C0C11FDA-0816-4EFF-B96C-5814F20EAA0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarningsAsErrors", "WarningsAsErrors\WarningsAsErrors.csproj", "{1DA490D9-0C17-4A34-9867-A07EE0688B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalyzing", "CodeAnalyzing\CodeAnalyzing.csproj", "{50085AAB-D037-4094-81B2-6B82679D38C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C0C11FDA-0816-4EFF-B96C-5814F20EAA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0C11FDA-0816-4EFF-B96C-5814F20EAA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0C11FDA-0816-4EFF-B96C-5814F20EAA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA490D9-0C17-4A34-9867-A07EE0688B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA490D9-0C17-4A34-9867-A07EE0688B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA490D9-0C17-4A34-9867-A07EE0688B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA490D9-0C17-4A34-9867-A07EE0688B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50085AAB-D037-4094-81B2-6B82679D38C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50085AAB-D037-4094-81B2-6B82679D38C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50085AAB-D037-4094-81B2-6B82679D38C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50085AAB-D037-4094-81B2-6B82679D38C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

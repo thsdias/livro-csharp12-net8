@@ -53,6 +53,9 @@ Summary
     - Deriving and casting types using inheritance
     - Base and derived classes, how to override a type member, and using polymorphism
 
+    * Extra:
+        - Writing better code
+
 - ##### Chapter 7: 
 > 
     - Reviewed the journey of .NET 8 for BCL functionality.
