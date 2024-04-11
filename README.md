@@ -56,7 +56,7 @@ Summary
     * Extra:
         - Writing better code
 
-- ##### Chapter 7: 
+- ##### Chapter 7: Packaging and Distributing .NET Types
 > 
     - Reviewed the journey of .NET 8 for BCL functionality.
     - Explored the relationship between assemblies and namespaces.
@@ -69,3 +69,11 @@ Summary
     * Extra:
         - Porting from .NET Framework to modern .NET
         - Creating source generators
+
+- ##### Chapter 8: Working with Common .NET Types 
+> 
+    - Choices for types to store and manipulate numbers.
+    - Handling text, including using regular expressions for validating input.
+    - Collections to use for storing multiple items.
+    - Working with indexes, ranges, and spans.
+    - Networking
