@@ -33,6 +33,11 @@ Source Generators cookbook:
  
 ---------------------------------------------------------------------------------------------------------------
 
+** Migrating from Newtonsoft to new JSON:
+
+https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-migrate-from-newtonsoft-how-to
+
+---------------------------------------------------------------------------------------------------------------
 
 * Command to list your currently installed templates:
 > dotnet new list  (or dotnet new -l or dotnet new --list with older SDKs)

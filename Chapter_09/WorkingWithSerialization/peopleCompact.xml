@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPersonII xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PersonII fname="Alice" lname="Smith" dob="1974-03-14T00:00:00" />
+  <PersonII fname="Bob" lname="Jones" dob="1969-11-23T00:00:00" />
+  <PersonII fname="Charlie" lname="Cox" dob="1984-05-04T00:00:00">
+    <Children>
+      <Person>
+        <FirstName>Sally</FirstName>
+        <LastName>Cox</LastName>
+        <DateOfBirth>2012-07-12T00:00:00</DateOfBirth>
+      </Person>
+    </Children>
+  </PersonII>
+</ArrayOfPersonII>
