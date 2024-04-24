@@ -1,7 +1,12 @@
-
 ** Book Links:
 
 https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-4---writing-debugging-and-testing-functions
+
+---------------------------------------------------------------------------------------------------------------
+
+** App Secret:
+- https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-8.0&tabs=windows
+- https://learn.microsoft.com/en-us/azure/key-vault/general/overview
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -35,7 +40,88 @@ Source Generators cookbook:
 
 ** Migrating from Newtonsoft to new JSON:
 
-https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-migrate-from-newtonsoft-how-to
+- https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-migrate-from-newtonsoft-how-to
+
+---------------------------------------------------------------------------------------------------------------
+
+* Entity Framework Core
+
+- https://github.com/dotnet/efcore
+- https://learn.microsoft.com/en-us/ef/core/
+
+
+* EF Core conventions:
+- https://learn.microsoft.com/en-us/ef/core/modeling/
+
+
+* Controlling dependency assets:
+- https://learn.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files#controlling-dependency-assets
+
+
+// The dotnet-ef command-line tool is not automatically installed. You must install this package as either a global or local tool.
+> dotnet tool list --global
+
+// If an old version is already installed, then update the tool:
+> dotnet tool update --global dotnet-ef
+
+// If it is not already installed, then install the latest version:
+> dotnet tool install --global dotnet-ef
+
+// To update to the latest .NET preview version available:
+> dotnet tool update --global dotnet-ef --version 9.0-*
+
+// You can also remove the tool, as shown in the following command:
+> dotnet tool uninstall --global dotnet-ef
+
+
+* Example to how to use the dotnet-ef tool to generate a model for the Categories and Products tables in a new folder named AutoGenModels in SQLite (ex: Microsoft Northwind DB):
+> dotnet ef dbcontext scaffold "Data Source=Northwind.db" Microsoft.EntityFrameworkCore.Sqlite --table Categories --table Products --output-dir AutoGenModels --namespace WorkingWithEFCore.AutoGen --data-annotations --context NorthwindDb
+
+ - The command action: dbcontext scaffold
+ - The connection string: "Data Source=Northwind.db"
+ - The database provider: Microsoft.EntityFrameworkCore.Sqlite
+ - The tables to generate models for: --table Categories --table Products
+ - The output folder: --output-dir AutoGenModels
+ - The namespace: --namespace WorkingWithEFCore.AutoGen
+ - To use data annotations as well as the Fluent API: --data-annotations
+ - To rename the context from [database_name]Context: --context NorthwindDb
+
+ 
+* Equivalent command in SQL Server: 
+- https://github.com/markjprice/cs12dotnet8/blob/main/docs/sql-server/README.md#scaffolding-models-using-an-existing-database.
+
+
+* To learn how to modify the T4 templates used by the dotnet-ef scaffolding tool, then you can find that information at the following link:
+- https://learn.microsoft.com/en-us/ef/core/managing-schemas/scaffolding/templates
+
+
+* Configuring preconvention models:
+
+// You might want to define a convention to say that all string properties should have a maximum length of 50 characters as a default, 
+// or any property types that implement a custom interface should not be mapped, as shown in the following code:
+
+protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+{
+  configurationBuilder.Properties<string>().HaveMaxLength(50);
+  configurationBuilder.IgnoreAny<IDoNotMap>();
+}
+
+
+* Entity SQL reference:
+- https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ef/language-reference/entity-sql-reference
+
+---------------------------------------------------------------------------------------------------------------
+
+** Explore NoSQL databases:
+
+* Welcome to Azure Cosmos DB: 
+- https://learn.microsoft.com/en-us/azure/cosmos-db/introduction
+
+* Use NoSQL databases as a persistence infrastructure: 
+- https://learn.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/nosql-database-persistence-infrastructure
+
+* Document database providers for Entity Framework Core: 
+- https://github.com/BlueshiftSoftware/EntityFrameworkCore
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -169,4 +255,3 @@ static void Withdraw(string accountName, decimal amount)
     paramName: nameof(amount));
   // process parameters
 }
-
