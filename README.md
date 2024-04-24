@@ -96,3 +96,19 @@ Summary
     - Serialize an object graph into JSON and XML.
     - Deserialize an object graph from JSON and XML.
     - Work with environment variables.
+
+- ##### Chapter 10: Working with Data Using Entity Framework Core
+> 📚 Learn https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-10---working-with-data-using-entity-framework-core
+
+    - Connect to and build entity data models for an existing database.
+    - Execute a simple LINQ query and process the results.
+    - Use filtered includes.
+    - Control loading and tracking patterns.
+    - Add, modify, and delete data.
+
+    * Extra:
+        - Working with transactions
+        - Explore a Code First EF Core model
+        - Explore app secrets
+
+- ##### Chapter 11 
