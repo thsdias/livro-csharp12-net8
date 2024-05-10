@@ -111,4 +111,19 @@ Summary
         - Explore a Code First EF Core model
         - Explore app secrets
 
-- ##### Chapter 11 
+- ##### Chapter 11: Querying and Manipulating Data Using LINQ
+> 📚 Learn https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-11---querying-and-manipulating-data-using-linq
+
+    - Selecting just the properties of an item that you need.
+    - Filtering items based on conditions.
+    - Sorting items.
+    - Projecting items into different types.
+    - Joining and grouping items.
+    - Aggregating items.
+
+    * Extra:
+        - Using multiple threads with parallel LINQ
+        - Working with LINQ to XML
+        - Creating your own LINQ extension
+
+- ##### Chapter 12: Introducing Web Development Using ASP.NET Core
