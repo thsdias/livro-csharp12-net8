@@ -1,0 +1,17 @@
+
+1 - Create the Northwind.db file for SQLite:
+    > sqlite3 Northwind.db -init Northwind4SQLite.sql
+
+2 - In the Northwind.EntityModels.Sqlite project folder, generate entity class models for all tables, 
+    as shown in the following command:
+    > dotnet ef dbcontext scaffold "Data Source=../Northwind.db" Microsoft.EntityFrameworkCore.Sqlite --namespace Northwind.EntityModels --data-annotations
+
+    /*
+        -> The command to perform: dbcontext scaffold
+        -> The connection string refers to the database file in the solution folder, which is one folder up from the current project folder: "Data Source=../Northwind.db"
+        -> The database provider: Microsoft.EntityFrameworkCore.Sqlite
+        -> The namespace: --namespace Northwind.EntityModels
+        -> To use data annotations as well as the Fluent API: --data-annotations
+    */
+
+3 - 
