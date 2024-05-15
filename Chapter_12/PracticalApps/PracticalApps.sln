@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.DataContext.Sqlite", "SQLite\Northwind.DataContext.Sqlite\Northwind.DataContext.Sqlite.csproj", "{256A02CE-DC1B-40EE-B48C-56F1824C8E23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.EntityModels.Sqlite", "SQLite\Northwind.EntityModels.Sqlite\Northwind.EntityModels.Sqlite.csproj", "{C8BF218E-D4D3-4AF0-9156-83B7F054E0E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.UnitTests", "Northwind.UnitTests\Northwind.UnitTests.csproj", "{98207749-4C23-472A-80EE-D3A91C7A7C47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite", "SQLite", "{8E0DF2E4-2863-4938-8FE0-FE58D04956BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLServer", "SQLServer", "{41B6AA82-290F-4960-97A9-2CFD092F7A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.EntityModels.SqlServer", "SQLServer\Northwind.EntityModels.SqlServer\Northwind.EntityModels.SqlServer.csproj", "{357BB86C-51DB-48D6-B669-19CADBE83F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DataContext.SqlServer", "SQLServer\Northwind.DataContext.SqlServer\Northwind.DataContext.SqlServer.csproj", "{7CF2540F-3EFA-4AB9-8078-56EAD1F2F0FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.SqlServer.UnitTests", "Northwind.SqlServer.UnitTests\Northwind.SqlServer.UnitTests.csproj", "{30A28075-8640-4E75-A0DA-D3C40A465A1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{256A02CE-DC1B-40EE-B48C-56F1824C8E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256A02CE-DC1B-40EE-B48C-56F1824C8E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256A02CE-DC1B-40EE-B48C-56F1824C8E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256A02CE-DC1B-40EE-B48C-56F1824C8E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BF218E-D4D3-4AF0-9156-83B7F054E0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BF218E-D4D3-4AF0-9156-83B7F054E0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BF218E-D4D3-4AF0-9156-83B7F054E0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BF218E-D4D3-4AF0-9156-83B7F054E0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98207749-4C23-472A-80EE-D3A91C7A7C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98207749-4C23-472A-80EE-D3A91C7A7C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98207749-4C23-472A-80EE-D3A91C7A7C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98207749-4C23-472A-80EE-D3A91C7A7C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357BB86C-51DB-48D6-B669-19CADBE83F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357BB86C-51DB-48D6-B669-19CADBE83F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357BB86C-51DB-48D6-B669-19CADBE83F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357BB86C-51DB-48D6-B669-19CADBE83F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF2540F-3EFA-4AB9-8078-56EAD1F2F0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF2540F-3EFA-4AB9-8078-56EAD1F2F0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF2540F-3EFA-4AB9-8078-56EAD1F2F0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF2540F-3EFA-4AB9-8078-56EAD1F2F0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A28075-8640-4E75-A0DA-D3C40A465A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A28075-8640-4E75-A0DA-D3C40A465A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A28075-8640-4E75-A0DA-D3C40A465A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A28075-8640-4E75-A0DA-D3C40A465A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{256A02CE-DC1B-40EE-B48C-56F1824C8E23} = {8E0DF2E4-2863-4938-8FE0-FE58D04956BD}
+		{C8BF218E-D4D3-4AF0-9156-83B7F054E0E9} = {8E0DF2E4-2863-4938-8FE0-FE58D04956BD}
+		{357BB86C-51DB-48D6-B669-19CADBE83F0C} = {41B6AA82-290F-4960-97A9-2CFD092F7A41}
+		{7CF2540F-3EFA-4AB9-8078-56EAD1F2F0FF} = {41B6AA82-290F-4960-97A9-2CFD092F7A41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D81F8EA-6448-4FE8-BE54-C1F1B82A451C}
+	EndGlobalSection
+EndGlobal

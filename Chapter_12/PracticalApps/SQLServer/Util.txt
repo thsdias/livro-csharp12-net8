@@ -1,0 +1,5 @@
+
+https://github.com/markjprice/cs12dotnet8/blob/main/docs/sql-server/README.md#chapter-12---introducing-web-development-using-aspnet-core
+
+// Generate entity class models for all tables
+dotnet ef dbcontext scaffold "Data Source=.\sqlexpress;Initial Catalog=Northwind;Integrated Security=true;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer --namespace Northwind.EntityModels --data-annotations

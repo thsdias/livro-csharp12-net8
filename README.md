@@ -127,3 +127,9 @@ Summary
         - Creating your own LINQ extension
 
 - ##### Chapter 12: Introducing Web Development Using ASP.NET Core
+> 📚 Learn https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-12---introducing-web-development-using-aspnet-core
+
+    - Been introduced to some of the app models that you can use to build websites and web services using C# and .NET.
+    - Created class libraries to define an entity data model for working with the Northwind database using SQLite, SQL Server, or both.
+
+- ##### Chapter 13: Building Websites Using ASP.NET Core Razor Pages
