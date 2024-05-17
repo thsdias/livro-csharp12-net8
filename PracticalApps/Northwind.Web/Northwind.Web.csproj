@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="System.Console" Static="true" />  
+  </ItemGroup>
+
+  <!--Include the greet.proto file in the build process.-->
+  <ItemGroup>
+    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+  </ItemGroup>
+  <!--Remove the stylecop.json file from the build process.-->
+  <ItemGroup>
+    <None Remove="stylecop.json" />
+  </ItemGroup>
+  <!--Include the stylecop.json file in the deployment.-->
+  <ItemGroup>
+    <AdditionalFiles Include="stylecop.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- SQLite -->
+    <!-- <ProjectReference Include="..\SQLite\Northwind.DataContext.Sqlite\Northwind.DataContext.Sqlite.csproj" /> -->
+    
+    <!-- SQLServer -->
+    <ProjectReference Include="..\SQLServer\Northwind.DataContext.SqlServer\Northwind.DataContext.SqlServer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Northwind.Razor.Employees\Northwind.Razor.Employees.csproj" />
+  </ItemGroup>
+
+</Project>

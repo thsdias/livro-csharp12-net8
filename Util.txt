@@ -10,6 +10,12 @@ https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-4
 
 ---------------------------------------------------------------------------------------------------------------
 
+** Use multiple environments in ASP.NET Core:
+
+- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-8.0
+
+---------------------------------------------------------------------------------------------------------------
+
 ** StyleCop:
 - https://github.com/DotNetAnalyzers/StyleCopAnalyzers/tree/master
 - https://www.jamescroft.co.uk/building-net-project-docs-with-docfx-on-github-pages/
@@ -200,6 +206,42 @@ Builds the project and Creates NuGet packages (*.nupkg file)
 - https://learn.microsoft.com/en-us/nuget/hosting-packages/overview
 
 
+---------------------------------------------------------------------------------------------------------------
+
+* ASP.NET CORE:
+
+* Create new Razor page files:
+> dotnet new page -n Suppliers --namespace Northwind.Web.Pages
+
+
+* Razor Class Library com suporte para páginas e visualizações:
+> dotnet new razorclasslib -n MinhaBibliotecaRazor --support-pages-and-views
+
+
+* Run:
+> dotnet run --launch-profile https
+
+
+* More Information: You can read more about managing MS Build items: 
+link: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-items.
+
+
+* You can learn more about Build Action and .csproj entries: 
+link: https://learn.microsoft.com/en-us/visualstudio/ide/build-actions.
+
+
+* ASP.NET Core Middleware
+link: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0#middleware-order
+
+
+* Servers & middleware HTTP/3 disabled by default:
+link: https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-dotnet-8-rc-1/#http-3-disabled-by-default
+
+
+* Section about enabling request decompression support:
+link: https://github.com/markjprice/cs12dotnet8/blob/main/docs/ch13-enabling-http3.md
+
+ 
 ---------------------------------------------------------------------------------------------------------------
 
 * Chapter 4:

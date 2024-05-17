@@ -129,7 +129,30 @@ Summary
 - ##### Chapter 12: Introducing Web Development Using ASP.NET Core
 > 📚 Learn https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-12---introducing-web-development-using-aspnet-core
 
+    - Understanding ASP.NET Core
+    - New features in ASP.NET Core
+    - Structuring projects
+    - Building an entity model for use in the rest of the book
+    - Understanding web developmen
     - Been introduced to some of the app models that you can use to build websites and web services using C# and .NET.
     - Created class libraries to define an entity data model for working with the Northwind database using SQLite, SQL Server, or both.
 
 - ##### Chapter 13: Building Websites Using ASP.NET Core Razor Pages
+> 📚 https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-13---building-websites-using-aspnet-core-razor-pages
+
+    - Exploring ASP.NET Core
+    - Exploring ASP.NET Core Razor Pages
+    - Using Entity Framework Core with ASP.NET Core
+    - Configuring services and the HTTP request pipeline
+    - About the foundations of web development using HTTP.
+    - How to build a simple website that returns static files.
+    - How to use ASP.NET Core Razor Pages with Entity Framework Core to create web pages that are dynamically generated from information in a database.
+    - How to configure the HTTP request and response pipeline, what the helper extension methods do, and how you can add your own middleware that affects processing.
+
+    * Extra:
+        - Using Razor class libraries
+        - Enabling HTTP/3 and request decompression support
+        - Practice building a data-driven web page
+        - Practice building web pages for functions
+
+- ##### Chapter 14: Building and Consuming Web Services
