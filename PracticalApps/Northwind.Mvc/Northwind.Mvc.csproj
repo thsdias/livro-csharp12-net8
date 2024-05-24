@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Northwind.Mvc-c1c4fafb-eb1b-4046-8b67-4955b0d85c7f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- SQLite -->
+    <!-- <ProjectReference Include="..\SQLite\Northwind.DataContext.Sqlite\Northwind.DataContext.Sqlite.csproj" /> -->
+    
+    <!-- SQLServer -->
+    <ProjectReference Include="..\SQLServer\Northwind.DataContext.SqlServer\Northwind.DataContext.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

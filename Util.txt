@@ -5,73 +5,79 @@ https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-4
 ---------------------------------------------------------------------------------------------------------------
 
 ** App Secret:
-- https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-8.0&tabs=windows
-- https://learn.microsoft.com/en-us/azure/key-vault/general/overview
+link: https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-8.0&tabs=windows
+link: https://learn.microsoft.com/en-us/azure/key-vault/general/overview
 
 ---------------------------------------------------------------------------------------------------------------
 
 ** Use multiple environments in ASP.NET Core:
 
-- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-8.0
+link: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-8.0
 
 ---------------------------------------------------------------------------------------------------------------
 
 ** StyleCop:
-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/tree/master
-- https://www.jamescroft.co.uk/building-net-project-docs-with-docfx-on-github-pages/
+
+link: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/tree/master
+link: https://www.jamescroft.co.uk/building-net-project-docs-with-docfx-on-github-pages/
 
 ---------------------------------------------------------------------------------------------------------------
 
 ** .NET Portability Analyzer:
 
 // Useful tool that you can run against your existing applications to generate a report for porting 
-- https://learn.microsoft.com/en-us/shows/seth-juarez/brief-look-net-portability-analyzer
+link: https://learn.microsoft.com/en-us/shows/seth-juarez/brief-look-net-portability-analyzer
+
+---------------------------------------------------------------------------------------------------------------
+
+** Unit Test:
+link: https://learn.microsoft.com/pt-br/aspnet/core/mvc/controllers/testing?view=aspnetcore-8.0
 
 ---------------------------------------------------------------------------------------------------------------
 
 ** C# Source Generators:
 
-- https://github.com/amis92/csharp-source-generators
+link: https://github.com/amis92/csharp-source-generators
 
 Source Generators design specification: 
-- https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.md
+link: https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.md
 
 Source Generators samples: 
-- https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators
+link: https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators
 
 Source Generators cookbook: 
-- https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md
+link: https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md
  
 ---------------------------------------------------------------------------------------------------------------
 
 ** Migrating from Newtonsoft to new JSON:
 
-- https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-migrate-from-newtonsoft-how-to
+link: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-migrate-from-newtonsoft-how-to
 
 ---------------------------------------------------------------------------------------------------------------
  
 ** LINQ:
 
 * Enumerable.ToLookup Method:
-- https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.tolookup?view=net-8.0
+link: https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.tolookup?view=net-8.0
 
 * Partitioning data (C#):
-- https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/partitioning-data
+link: https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/partitioning-data
 
 ---------------------------------------------------------------------------------------------------------------
 
-* Entity Framework Core
+** Entity Framework Core
 
-- https://github.com/dotnet/efcore
-- https://learn.microsoft.com/en-us/ef/core/
+link: https://github.com/dotnet/efcore
+link: https://learn.microsoft.com/en-us/ef/core/
 
 
 * EF Core conventions:
-- https://learn.microsoft.com/en-us/ef/core/modeling/
+link: https://learn.microsoft.com/en-us/ef/core/modeling/
 
 
 * Controlling dependency assets:
-- https://learn.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files#controlling-dependency-assets
+link: https://learn.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files#controlling-dependency-assets
 
 
 // The dotnet-ef command-line tool is not automatically installed. You must install this package as either a global or local tool.
@@ -104,11 +110,11 @@ Source Generators cookbook:
 
  
 * Equivalent command in SQL Server: 
-- https://github.com/markjprice/cs12dotnet8/blob/main/docs/sql-server/README.md#scaffolding-models-using-an-existing-database.
+link: https://github.com/markjprice/cs12dotnet8/blob/main/docs/sql-server/README.md#scaffolding-models-using-an-existing-database.
 
 
 * To learn how to modify the T4 templates used by the dotnet-ef scaffolding tool, then you can find that information at the following link:
-- https://learn.microsoft.com/en-us/ef/core/managing-schemas/scaffolding/templates
+link: https://learn.microsoft.com/en-us/ef/core/managing-schemas/scaffolding/templates
 
 
 * Configuring preconvention models:
@@ -124,20 +130,20 @@ protected override void ConfigureConventions(ModelConfigurationBuilder configura
 
 
 * Entity SQL reference:
-- https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ef/language-reference/entity-sql-reference
+link: https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ef/language-reference/entity-sql-reference
 
 ---------------------------------------------------------------------------------------------------------------
 
 ** Explore NoSQL databases:
 
 * Welcome to Azure Cosmos DB: 
-- https://learn.microsoft.com/en-us/azure/cosmos-db/introduction
+link: https://learn.microsoft.com/en-us/azure/cosmos-db/introduction
 
 * Use NoSQL databases as a persistence infrastructure: 
-- https://learn.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/nosql-database-persistence-infrastructure
+link: https://learn.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/nosql-database-persistence-infrastructure
 
 * Document database providers for Entity Framework Core: 
-- https://github.com/BlueshiftSoftware/EntityFrameworkCore
+link: https://github.com/BlueshiftSoftware/EntityFrameworkCore
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -199,16 +205,16 @@ Builds the project and Creates NuGet packages (*.nupkg file)
 
 
 * Exploring NuGet packages with a tool:
-- https://nuget.info
+link: https://nuget.info
 
 
 * Hosting your own NuGet feeds:
-- https://learn.microsoft.com/en-us/nuget/hosting-packages/overview
+link: https://learn.microsoft.com/en-us/nuget/hosting-packages/overview
 
 
 ---------------------------------------------------------------------------------------------------------------
 
-* ASP.NET CORE:
+** ASP.NET CORE:
 
 * Create new Razor page files:
 > dotnet new page -n Suppliers --namespace Northwind.Web.Pages
@@ -291,6 +297,30 @@ link: https://devblogs.microsoft.com/visualstudio/safely-use-secrets-in-http-req
 link: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/w3c-logger/?view=aspnetcore-8.0
 
 
+---------------------------------------------------------------------------------------------------------------
+
+* ASP.NET Core MVC:
+
+* Create a new project using Individual authentication template:
+> dotnet new mvc --auth Individual -o project.Mvc
+
+
+* Add new Razor View file:
+> dotnet new view -n ProductDetail
+
+
+* Run using https:
+> dotnet run --launch-profile https
+
+
+* Logging in .NET Core and ASP.NET Core
+link: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-8.0
+
+
+* Async Programming:
+link: https://learn.microsoft.com/en-us/archive/msdn-magazine/2014/october/async-programming-introduction-to-async-await-on-asp-net
+
+ 
 ---------------------------------------------------------------------------------------------------------------
 
 
