@@ -156,3 +156,13 @@ Summary
         - Practice building web pages for functions
 
 - ##### Chapter 14: Building and Consuming Web Services
+
+
+
+- ##### Extra: Building Websites Using the Model-View-Controller Pattern
+
+    - Setting up an ASP.NET Core MVC website
+    - Exploring an ASP.NET Core MVC website
+    - Customizing an ASP.NET Core MVC website
+    - Improving performance and scalability using caching
+    - Querying a database and using display templates

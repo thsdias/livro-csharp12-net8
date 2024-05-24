@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Xml.Serialization; // To use [XmlIgnore].
 
 namespace Northwind.EntityModels;
 
@@ -54,5 +55,23 @@ public partial class Customer
 
     [ForeignKey("CustomerId")]
     [InverseProperty("Customers")]
+    [XmlIgnore]
     public virtual ICollection<CustomerDemographic> CustomerTypes { get; set; } = new List<CustomerDemographic>();
+
+    /*
+        Controlling XML serialization:
+        The XmlSerializer cannot serialize interfaces, and our entity classes use ICollection<T> to define 
+        related child entities. This causes a warning at runtime, for example, for the Customer class and 
+        its Orders property, as shown in the following output:
+
+        warn: Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter[1]
+        An error occurred while trying to create an XmlSerializer for the type 'Northwind.EntityModels.Customer'.
+        System.InvalidOperationException: There was an error reflecting type 'Northwind.EntityModels.Customer'.
+        ---> System.InvalidOperationException: Cannot serialize member 'Northwind.EntityModels.Customer.Orders' 
+        of type 'System.Collections.Generic.ICollection`1[[Northwind.EntityModels.Order, 
+        Northwind.EntityModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]', 
+        see inner exception for more details.   
+
+        using System.Xml.Serialization; // To use [XmlIgnore].  
+    */
 }
