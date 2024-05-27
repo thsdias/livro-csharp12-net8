@@ -10,6 +10,19 @@ link: https://learn.microsoft.com/en-us/azure/key-vault/general/overview
 
 ---------------------------------------------------------------------------------------------------------------
 
+** Explore NoSQL databases:
+
+* Welcome to Azure Cosmos DB: 
+link: https://learn.microsoft.com/en-us/azure/cosmos-db/introduction
+
+* Use NoSQL databases as a persistence infrastructure: 
+link: https://learn.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/nosql-database-persistence-infrastructure
+
+* Document database providers for Entity Framework Core: 
+link: https://github.com/BlueshiftSoftware/EntityFrameworkCore
+
+---------------------------------------------------------------------------------------------------------------
+
 ** Use multiple environments in ASP.NET Core:
 
 link: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-8.0
@@ -63,6 +76,73 @@ link: https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.tolook
 
 * Partitioning data (C#):
 link: https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/partitioning-data
+
+---------------------------------------------------------------------------------------------------------------
+
+* Command to list your currently installed templates:
+> dotnet new list  (or dotnet new -l or dotnet new --list with older SDKs)
+
+
+* Add Project in Solution:
+> dotnet sln add name_project
+
+
+* Create a new MVC Project (No authentication):
+> dotnet new mvc -au None
+
+
+* Create a new ClassLib:
+> dotnet new classlib -o name_lib
+> dotnet new classlib -f netstandard2.0
+
+
+* Create a old style console project:
+> dotnet new console -n name_project --use-program-main
+
+* Create a new xUnit Project:
+> dotnet new xunit -o name_testproject
+
+
+* Create a global.json file that forces the use of the latest .NET Core 6.0 SDK that you have installed
+> dotnet --list-sdks
+> dotnet new globaljson --sdk-version 6.0.xxx
+
+
+** Build:
+
+* Build a project and its dependencies using Release configuration:
+> dotnet build --configuration Release
+
+
+** DotNet Pack:
+Builds the project and Creates NuGet packages (*.nupkg file)
+
+* Pack the project in the current directory:
+> dotnet pack
+
+* Pack the project in the current directory and place the resulting packages into the nupkgs folder
+> dotnet pack --output nupkgs 
+
+
+** SDKs:
+
+* Verifica versoes e avisos de atualizacao das SDKs
+> dotnet sdk check
+
+
+** NuGet:
+
+* Create a NuGet package manually (local: ...\bin\Release\name_package.nupkg):
+> dotnet pack -c Release
+
+
+* Exploring NuGet packages with a tool:
+link: https://nuget.info
+
+
+* Hosting your own NuGet feeds:
+link: https://learn.microsoft.com/en-us/nuget/hosting-packages/overview
+
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -134,86 +214,6 @@ link: https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ef/language
 
 ---------------------------------------------------------------------------------------------------------------
 
-** Explore NoSQL databases:
-
-* Welcome to Azure Cosmos DB: 
-link: https://learn.microsoft.com/en-us/azure/cosmos-db/introduction
-
-* Use NoSQL databases as a persistence infrastructure: 
-link: https://learn.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/nosql-database-persistence-infrastructure
-
-* Document database providers for Entity Framework Core: 
-link: https://github.com/BlueshiftSoftware/EntityFrameworkCore
-
----------------------------------------------------------------------------------------------------------------
-
-* Command to list your currently installed templates:
-> dotnet new list  (or dotnet new -l or dotnet new --list with older SDKs)
-
-
-* Add Project in Solution:
-> dotnet sln add name_project
-
-
-* Create a new MVC Project (No authentication):
-> dotnet new mvc -au None
-
-
-* Create a new ClassLib:
-> dotnet new classlib -o name_lib
-> dotnet new classlib -f netstandard2.0
-
-
-* Create a old style console project:
-> dotnet new console -n name_project --use-program-main
-
-* Create a new xUnit Project:
-> dotnet new xunit -o name_testproject
-
-
-* Create a global.json file that forces the use of the latest .NET Core 6.0 SDK that you have installed
-> dotnet --list-sdks
-> dotnet new globaljson --sdk-version 6.0.xxx
-
-
-** Build:
-
-* Build a project and its dependencies using Release configuration:
-> dotnet build --configuration Release
-
-
-** DotNet Pack:
-Builds the project and Creates NuGet packages (*.nupkg file)
-
-* Pack the project in the current directory:
-> dotnet pack
-
-* Pack the project in the current directory and place the resulting packages into the nupkgs folder
-> dotnet pack --output nupkgs 
-
-
-** SDKs:
-
-* Verifica versoes e avisos de atualizacao das SDKs
-> dotnet sdk check
-
-
-** NuGet:
-
-* Create a NuGet package manually (local: ...\bin\Release\name_package.nupkg):
-> dotnet pack -c Release
-
-
-* Exploring NuGet packages with a tool:
-link: https://nuget.info
-
-
-* Hosting your own NuGet feeds:
-link: https://learn.microsoft.com/en-us/nuget/hosting-packages/overview
-
-
----------------------------------------------------------------------------------------------------------------
-
 ** ASP.NET CORE:
 
 * Create new Razor page files:
@@ -226,6 +226,14 @@ link: https://learn.microsoft.com/en-us/nuget/hosting-packages/overview
 
 * Run using https:
 > dotnet run --launch-profile https
+
+
+* Set multiple startup projects:
+link: https://learn.microsoft.com/en-us/visualstudio/ide/how-to-set-multiple-startup-projects?view=vs-2022
+
+
+* Multi-target debugging in VSCode:
+link: https://code.visualstudio.com/Docs/editor/debugging#_multitarget-debugging
 
 
 * More Information: You can read more about managing MS Build items: 
@@ -279,6 +287,10 @@ link: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=as
 
 * Use .http files in Visual Studio 2022 / VSCode (REST Client extension):
 link: https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0
+
+
+* Mechanism to add security headers - Jamie Taylor's
+link: https://github.com/GaProgMan/OwaspHeaders.Core/blob/main/README.md
 
 
 ** Passing environment variables:

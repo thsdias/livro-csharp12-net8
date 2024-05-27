@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Identity; // To use IdentityUser.
 using Microsoft.EntityFrameworkCore; // To use UseSqlServer method.
 using Northwind.Mvc.Data; // To use ApplicationDbContext.
 using Northwind.EntityModels; // To use AddNorthwindContext method.
+using System.Net.Http.Headers; // To use MediaTypeWithQualityHeaderValue.
+using System.Net; // To use HttpVersion.
 
 #endregion
 
@@ -31,6 +33,21 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 
 // Adds support for MVC controllers with views.
 builder.Services.AddControllersWithViews();
+
+// Add statements to the configuration of the HTTP client for the Northwind.WebApi service to set the default 
+// version to 3.0, and to fall back to earlier versions if HTTP/3 is not supported by the web service.
+builder.Services.AddHttpClient(name: "Northwind.WebApi",
+    configureClient: options =>
+    {
+        options.DefaultRequestVersion = HttpVersion.Version30;
+        options.DefaultVersionPolicy = HttpVersionPolicy.RequestVersionOrLower;
+
+        options.BaseAddress = new Uri("https://localhost:5151/");
+        options.DefaultRequestHeaders.Accept.Add(
+            new MediaTypeWithQualityHeaderValue(
+            mediaType: "application/json", quality: 1.0));
+    }
+);
 
 #region Connection String
 
@@ -70,6 +87,32 @@ else
 }
 
 #endregion
+
+// Add a statement to enable HttpClientFactory with a named client to make calls to the Northwind Web API service 
+// using HTTPS on port 5151 and request JSON as the default response format.
+builder.Services.AddHttpClient(
+    name: "Northwind.WebApi", 
+    configureClient: options => 
+    {
+        options.BaseAddress = new Uri("https://localhost:5151");
+        options.DefaultRequestHeaders.Accept.Add
+        (
+            new MediaTypeWithQualityHeaderValue(mediaType: "application/json", quality: 1.0)
+        );
+    }
+);
+
+// Add a statement to configure an HTTP client to call the minimal service on port 5152 (Minimal API).
+builder.Services.AddHttpClient(name: "Northwind.MinimalApi",
+    configureClient: options => 
+    {
+        options.BaseAddress = new Uri("http://localhost:5152/");
+        options.DefaultRequestHeaders.Accept.Add
+        (
+            new MediaTypeWithQualityHeaderValue("application/json", 1.0)
+        );
+    }
+);
 
 var app = builder.Build();
 

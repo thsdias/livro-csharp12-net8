@@ -156,7 +156,19 @@ Summary
         - Practice building web pages for functions
 
 - ##### Chapter 14: Building and Consuming Web Services
+> 📚 https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-14---building-and-consuming-web-services
 
+    - Building web services using the ASP.NET Core Web API
+    - Creating a web service for the Northwind database
+    - Documenting and testing web services
+    - Consuming web services using HTTP clients
+    - How to build an ASP.NET Core Web API service that can be called by any app on any platform that can make an HTTP request and process an HTTP response.
+    - How to test and document web service APIs with Swagger.
+    - How to consume services efficiently.
+    - How to build a basic HTTP API service using Minimal APIs.
+
+- ##### Chapter 15: Building User Interfaces Using Blazor
+> 📚
 
 
 - ##### Extra: Building Websites Using the Model-View-Controller Pattern

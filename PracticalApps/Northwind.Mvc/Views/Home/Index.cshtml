@@ -3,9 +3,17 @@
 @{
     ViewData["Title"] = "Home Page";
     string currentItem = "";
+    ToDo[]? todos = ViewData["todos"] as ToDo[]; // Minimal Api.
 }
 
 <p class="alert alert-primary">@DateTime.Now.ToLongTimeString()</p>
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>Northwind</h1>
+        <p class="lead">We have had @Model?.VisitorCount visitors this month.</p>
+    </div>
+</div>
 
 @if(Model is not null)
 {
@@ -65,10 +73,11 @@
 
 <div class="row">
     <div class="col-md-12">
-        <h1>Northwind</h1>
+        <br>
         <p><a asp-action="ModelBinding" asp-controller="Home">Binding</a></p>
-        <p class="lead">We have had @Model?.VisitorCount visitors this month.</p>
+        <br>
 
+        @* Products *@
         <h3>Query products by price</h3>
         <form asp-action="ProductsThatCostMoreThan" method="GET">
             <input name="price" placeholder="Enter a product price" />
@@ -83,7 +92,7 @@
                 <ul class="list-group">
                     @foreach(Product p in @Model.Products)
                     {
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <li class="list-group-item d-flex justify-content-center align-items-start">
                             <a class="btn btn-outline-primary" asp-controller="Home" asp-action="ProductDetail" asp-route-id="@p.ProductId">
                                 <div class="ms-2 me-auto">@p.ProductName</div>
                                 <span class="badge bg-primary rounded-pill">
@@ -95,5 +104,42 @@
                 </ul>
             </div>
         }
+    </div>
+</div>
+
+@* Minimal Api *@
+<div class="row">
+    <div class="col-md-12">
+        <p>
+            <h4>To Dos</h4>
+            @if((todos is null) || (!todos.Any()))
+            {
+                <p>No to dos found.</p>
+            }
+            else
+            {
+                <table class="table table-info">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Title</th>
+                            <th>Due By</th>
+                            <th>Is Complete?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(ToDo todo in todos)
+                        {
+                            <tr>
+                                <td>@todo.Id</td>
+                                <td>@todo.Title</td>
+                                <td>@todo.DueBy</td>
+                                <td>@todo.IsComplete</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </p>
     </div>
 </div>

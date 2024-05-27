@@ -49,6 +49,13 @@ builder.Services.AddControllers(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Add a statement to add health checks, including to the Northwind database context.
+string? sqlServerConnection = builder.Configuration.GetConnectionString("NorthwindConnection");
+builder.Services.AddHealthChecks()
+    .AddDbContextCheck<NorthwindContext>()
+    // Execute SELECT 1 using the specified connection string.
+    .AddSqlServer(sqlServerConnection!);
+
 var app = builder.Build();
 
 // Log Http.
@@ -71,6 +78,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
+
+// Add a statement to use basic health checks.
+app.UseHealthChecks(path: "/howdoyoufeel");
+
+// Add a statement to register the middleware.
+app.UseMiddleware<SecurityHeaders>();
+
 app.MapControllers();
 
 app.Run();
