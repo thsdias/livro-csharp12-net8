@@ -13,6 +13,10 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+
+    <!-- Enable Entity Framework Core database health checks -->
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="7.0-*" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,5 +26,19 @@
     <!-- SQLServer -->
     <ProjectReference Include="..\SQLServer\Northwind.DataContext.SqlServer\Northwind.DataContext.SqlServer.csproj" />
   </ItemGroup>
+
+  <!-- Add an element to enable HTTP/3 support -->
+  <ItemGroup>
+    <RuntimeHostConfigurationOption Include="System.Net.SocketsHttpHandler.Http3Support" Value="true" />
+  </ItemGroup>
+
+  <!-- Add the element that enables the OpenAPI Analyzers -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <IncludeOpenAPIAnalyzers>true</IncludeOpenAPIAnalyzers>
+  </PropertyGroup>
 
 </Project>

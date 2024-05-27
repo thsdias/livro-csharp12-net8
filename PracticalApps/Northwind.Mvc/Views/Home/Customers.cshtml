@@ -1,0 +1,64 @@
+@using Northwind.EntityModels
+@model IEnumerable<Customer>
+
+@if (TempData["error-message"] is not null)
+{
+    <p class="alert alert-danger">Error! @TempData["error-message"]</p>
+}
+@if (TempData["success-message"] is not null)
+{
+    <p class="alert alert-success">Congratulations! @TempData["success-message"]</p>
+}
+
+<br>
+<div class="row">
+    <div class="col-md-12">
+        <h3>Query customers from a service</h3>
+        <form asp-action="Customers" method="get">
+            <input name="country" placeholder="Enter a country" />
+            <input type="submit">
+        </form>
+    </div>
+</div>
+<br>
+
+<a asp-controller="Home" asp-action="AddCustomer" class="btn btn-outline-primary">Add Customer</a>
+<br><br>
+
+<h2 class="title">@ViewData["Title"]</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Company Name</th>
+            <th>Contact Name</th>
+            <th>Address</th>
+            <th>Phone</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model is not null)
+        {
+            @foreach(Customer c in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => c.CompanyName)</td>
+                    <td>@Html.DisplayFor(modelItem => c.ContactName)</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => c.Address)
+                        @Html.DisplayFor(modelItem => c.City)
+                        @Html.DisplayFor(modelItem => c.Region)
+                        @Html.DisplayFor(modelItem => c.Country)
+                        @Html.DisplayFor(modelItem => c.PostalCode)
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => c.Phone)</td>
+                    <td>
+                        <a class="btn btn-outline-danger" asp-asp-controller="Homme" asp-action="DeleteCustomer" asp-route-customerid="@c.CustomerId">
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
