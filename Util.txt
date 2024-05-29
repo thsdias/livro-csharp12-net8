@@ -258,7 +258,7 @@ link: https://github.com/markjprice/cs12dotnet8/blob/main/docs/ch13-enabling-htt
  
 ---------------------------------------------------------------------------------------------------------------
 
-* WEB API:
+** WEB API:
 
 * Creates a service implemented using controllers (.NET 6 and .NET 7):
 > dotnet new webapi
@@ -311,7 +311,7 @@ link: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/w3c-logger/?vie
 
 ---------------------------------------------------------------------------------------------------------------
 
-* ASP.NET Core MVC:
+** ASP.NET Core MVC:
 
 * Create a new project using Individual authentication template:
 > dotnet new mvc --auth Individual -o project.Mvc
@@ -335,8 +335,31 @@ link: https://learn.microsoft.com/en-us/archive/msdn-magazine/2014/october/async
  
 ---------------------------------------------------------------------------------------------------------------
 
+** Blazor:
 
-* Chapter 4:
+* Create a new project
+> dotnet new blazor --interactivity None -o project_name
+
+
+* Icons Bootstrap:
+link: https://icon-sets.iconify.design/bi/
+
+
+* Transient Service:
+A transient service is one that creates a new instance for each request. You can read more about the different lifetimes for services
+link: https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#service-lifetimes.
+
+
+
+** Blazor WebAssembly:
+
+* Create a new Blazor WebAssembly App Empty:
+> dotnet new blazorwasm-empty -n project_name.Wasm
+
+
+---------------------------------------------------------------------------------------------------------------
+
+** Chapter 4:
 
 -> XML comment
 Ferramenta que converte os comentários em documentação, como o Sandcastle: https://github.com/EWSoftware/SHFB 

@@ -80,7 +80,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 // Add a statement to use basic health checks.
-app.UseHealthChecks(path: "/howdoyoufeel");
+app.UseHealthChecks(path: "/healthz");
 
 // Add a statement to register the middleware.
 app.UseMiddleware<SecurityHeaders>();
