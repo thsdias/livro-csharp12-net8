@@ -168,8 +168,12 @@ Summary
     - How to build a basic HTTP API service using Minimal APIs.
 
 - ##### Chapter 15: Building User Interfaces Using Blazor
-> 📚
+> 📚 https://github.com/markjprice/cs12dotnet8/blob/main/docs/book-links.md#chapter-15---building-user-interfaces-using-blazor
 
+    - About the concepts of Blazor components.
+    - How to build Blazor components that execute on the server side.
+    - How to build Blazor components that execute on the client side using WebAssembly.
+    - Some of the key differences between the two hosting models, like how data should be managed using dependency services.
 
 - ##### Extra: Building Websites Using the Model-View-Controller Pattern
 
@@ -178,3 +182,12 @@ Summary
     - Customizing an ASP.NET Core MVC website
     - Improving performance and scalability using caching
     - Querying a database and using display templates
+
+- ##### Extra: Enabling client-side execution using WebAssembly
+
+    - Abstracting the service
+    - Creating a client-side Blazor components project
+    - Creating a client-side service implementation
+    - Enabling client-side interactions in the host project
+    - Testing the WebAssembly components and service
+    

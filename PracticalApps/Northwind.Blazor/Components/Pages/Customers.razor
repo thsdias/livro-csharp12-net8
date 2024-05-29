@@ -1,0 +1,84 @@
+@* register /customers as its route with an optional country route parameter *@
+@page "/customers/{country?}" 
+
+@* Add statements to inject the service   *@
+@inject INorthwindService _service
+
+@* Add an attribute to enable streaming rendering *@
+@attribute [StreamRendering(true)]
+
+<h3>
+    Customers @(string.IsNullOrWhiteSpace(Country) ? "Worldwide" : "in " + Country)
+</h3>
+<br>
+<div class="form-group">
+  <a class="btn btn-info" href="createcustomer">
+    <i class="bi bi-plus-square"></i> Create New
+  </a>
+</div>
+<br>
+
+@if(customers is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Company Name</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(Customer c in customers)
+            {
+                <tr>
+                    <td>@c.CustomerId</td>
+                    <td>@c.CompanyName</td>
+                    <td>
+                        @c.Address
+                        <br>
+                        @c.City
+                        <br>
+                        @c.PostalCode
+                        <br>
+                        @c.Country
+                    </td>
+                    <td>@c.Phone</td>
+                    <td>
+                        <a href="editcustomer/@c.CustomerId" class="btn btn-info">
+                            <i class="bi bi-pencil"></i>
+                        </a>
+                        <a href="deletecustomer/@c.CustomerId" class="btn btn-danger">
+                            <i class="bi bi-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@code {
+    [Parameter]
+    public string? Country { get; set; }
+
+    private IEnumerable<Customer>? customers;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        // Add a statement to asynchronously delay for one second.
+        await Task.Delay(1000);
+
+        if (string.IsNullOrWhiteSpace(Country))
+            customers = await _service.GetCustomersAsync();
+        else
+            customers = await _service.GetCustomersAsync(Country);
+    }
+}
